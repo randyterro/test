@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="../css/main.css">
+		<script src="../librerias/jquery-1.12.4.js"></script>
+		<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+        <!--<script src="../librerias/jquery-ui.js"></script>-->
+        <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+        <script src="../librerias/draggabilly.js"></script>
+        <!--<script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>-->
+        
+        
+	</head>
+	<header>
+	    
+	</header>
+	<body>
+  <div id="tipo_de_nota">
+    <button id="nota001" class="panel1" onclick="v_nota(1)"></button>
+      <button id="nota003" class="panel1"   onclick="v_nota(2)"></button>
+       <button id="nota004" class="panel1"   onclick="v_nota(3)"></button>
+        <button id="nota005" class="panel1"   onclick="v_nota(4)"></button>
+         <button id="nota006" class="panel1"   onclick="v_nota(5)"></button>
+          <button id="nota007" class="panel1"   onclick="silencio(1)"></button>
+           <button id="nota008" class="panel1"   onclick="silencio(2)"></button>
+            <button id="nota009" class="panel1"   onclick="silencio(3)"></button>
+             <button id="nota010" class="panel1"   onclick="silencio(4)"></button>
+              <button id="nota011" class="panel1"   onclick="silencio(5)"></button>
+   </div> 
+    
+    <div id="valor_notas">
+        <button id="valornota_1" class="boton_escalas" onclick="escala_nota(1)">rosado claro</button>
+         <button id="valornota_2" class="boton_escalas" onclick="escala_nota(2)">morado claro</button>
+          <button id="valornota_3" class="boton_escalas" onclick="escala_nota(3)">rojo claro</button>
+           <button id="valornota_4" class="boton_escalas" onclick="escala_nota(4)">amarillo claro</button>
+            <button id="valornota_5" class="boton_escalas" onclick="escala_nota(5)">verde claro</button>
+             <button id="valornota_6" class="boton_escalas" onclick="escala_nota(6)">azul claro</button>
+              <button id="valornota_7" class="boton_escalas" onclick="escala_nota(7)">naranja claro</button>
+               <button id="valornota_8" class="boton_escalas" onclick="escala_nota(8)">rosado</button>
+                <button id="valornota_9" class="boton_escalas" onclick="escala_nota(9)">morado</button>
+                 <button id="valornota_10" class="boton_escalas" onclick="escala_nota(10)">rojo</button>
+                  <button id="valornota_11" class="boton_escalas" onclick="escala_nota(11)">amarillo</button>
+                  <button id="valornota_12" class="boton_escalas" onclick="escala_nota(12)">verde</button>
+                   <button id="valornota_13" class="boton_escalas" onclick="escala_nota(13)">azul</button>
+                     <button id="valornota_14" class="boton_escalas" onclick="escala_nota(14)">naranja</button>
+    </div>
+    <div id="botones_abajo">
+        <button id="ta" class="panel_abajo" onclick="abajo_ta()">ta</button>
+      <button id="sapo" class="panel_abajo"   onclick="abajo_sapo()">sapo</button>
+       <button id="estrellita" class="panel_abajo"   onclick="abajo_estrella()">estrella</button>
+        <button id="tren" class="panel_abajo"   onclick="abajo_tren()">tren</button>
+         <button id="salto" class="panel_abajo"   onclick="abajo_salto()">salto</button>
+    </div>
+    
+    
+   <div id="llamada_de_nota">
+       <input id="orden1" class="selector" value="tipo de nota" type="text">
+       <input id="orden2" class="selector" value="escala de nota" type="text">
+   </div>
+    
+    <div id="zona_pentagrama">
+        <div class="pentagrama_img" id="pentagrama1"></div><div class="pentagrama_img" id="pentagrama2"></div>
+    </div>
+     <div style="background-image: url()"></div>
+     
+
+
+
+
+ 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+	</body>
+	 <script src="../js/main.js"></script>
+</html>

@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+
+	
+}
+
+body{
+background-color: 
+}
+#tipo_de_nota{
+    position: absolute;
+    padding: 0.3%;
+    top: 5%;
+    left: 5%;
+    width: 5%;
+    height: 90%;
+
+  
+    
+    
+}
+
+.panel1{
+    width: 4.5vw;
+    margin-top: 3%;
+    height: 8vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30%;
+    border-bottom-style: none;
+    background-color: rgba(0,0,0,0.2);
+    border-color:grey;
+    border: solid 1px;
+    cursor: pointer;
+    
+    
+}
+
+.panel1:hover{
+    transform: scale(1.05);
+    background-color: cyan;
+    transition-duration: 0.4s, 0.4s;
+    
+}
+
+#botones_abajo{
+    position: absolute;
+    padding: 0.3%;
+    top: 70%;
+    left: 19%;
+    width: 57%;
+    background-color: black;
+    height: 20%;
+}
+
+.panel_abajo{
+    width: 19.6%;
+    height: 100%;
+}
+
+#nota001{
+   
+    background-image: url(../notas/redonda.png);
+    
+}
+#nota002{
+   
+    background-image: url(../notas/redonda2.png);
+        
+}
+#nota003{
+  
+    background-image: url(../notas/blanca.png);
+    
+}
+#nota004{
+ 
+    background-image: url(../notas/negra.png);
+        
+}
+#nota005{
+ 
+    background-image: url(../notas/corchea.png);
+    
+}
+#nota006{
+    background-image: url(../notas/semicorchea.png);
+        
+}
+#nota007{
+    background-image: url(../notas/uno.png);
+    
+}
+#nota008{
+    background-image: url(../notas/1medio.png);
+        
+}
+#nota009{
+    background-image: url(../notas/1cuarto.png);
+    
+}
+#nota010{
+    background-image: url(../notas/1octavo.png);
+        
+}
+#nota011{
+    background-image: url(../notas/tres.png);
+        
+}
+#valor_notas{
+    
+    position: absolute;
+    padding: 0.1%;
+    top: 5%;
+    margin-left: 12%;
+    width: 6%;
+    height: 90%;
+    display: none;
+   
+}
+
+
+.boton_escalas{   
+   
+    width: 100%;
+    height: 7.15%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+#llamada_de_nota{
+    position: absolute;
+    top: 96%;
+    left: 5%;
+    width: 22%;
+    height: 4%;
+    display: none;
+    
+
+}
+
+#zona_pentagrama{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    width: 850px;
+    height: 450px;
+     background-color: whitesmoke;
+ 
+    
+}
+
+.pentagrama_img{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: url(../pentagrama/pentagrama.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+}
+
+#pentagrama2{
+    top: 50%;
+}
+
+
+.stikers{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    
+    
+}
+.selector{
+
+}
+
